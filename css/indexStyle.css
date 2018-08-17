@@ -1,10 +1,35 @@
 body{
-  margin:0;
+  background-color: rgb(255, 255, 255);
   padding: 0;
-  background-color: rgb(3, 54, 113);
-  
+  margin: 0;
 }
-.linkParagraph{
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  }
+
+li{
+  list-style-type: none;
+  float: left;
+
+}
+li a{
+  position: static;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  width:120%;
+}
+ul li a:hover{
+  background-color: rgba(154, 5, 55, 0.71);
+  color: white;
+}
+li a .active{
 
 
 }
